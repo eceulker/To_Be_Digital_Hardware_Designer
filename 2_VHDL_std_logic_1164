@@ -1,0 +1,9 @@
+'U' : Uninitialized
+'X' : Forced Unknown
+'0' : Zero
+'1' : One
+'Z' : High impedance
+'W' : Weak unknown
+'L' : Weak Zero
+'H' : Weak One
+'-' : Don't care
