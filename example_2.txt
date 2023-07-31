@@ -1,0 +1,22 @@
+library ieee;
+library ieee.std_logic_1164.all;
+library ieee.numeric_std.all;
+
+entity logicLevel is
+    port(
+	        a_in      : in std_logic;
+			b_in      : in std_logic;
+			sum_out   : out std_logic;
+			carry_out : out std_logic
+	);
+end logicLevel;
+
+architecture arch of logicLevel is
+begin
+
+      sum_out  <= a_in xor b_in;
+	  carry_out<= a_in and b_in;
+	 
+end architecture;
+
+	
